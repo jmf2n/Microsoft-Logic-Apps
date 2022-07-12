@@ -1,6 +1,6 @@
 param connections_office365_name string = 'office365'
-param workflows_Monitor_main_name string = 'Monitor-LogicApp'
-param userAssignedIdentities_Monitor_Identity_name string = 'Monitor-ManagedIdentity'
+param workflows_Monitor_main_name string = 'O365LicenseMonitor-LogicApp'
+param userAssignedIdentities_Monitor_Identity_name string = 'O365LicenseMonitor-MI'
 param ResourceGroupName string
 param resourceLocation string
 
