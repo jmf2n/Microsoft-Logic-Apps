@@ -1,7 +1,7 @@
 param workflows_Monitor_main_name string
 param connections_office365_name string = 'office365'
 param resourceLocation string 
-param userAssignedIdentities_Monitor_Identity_name string = 'Monitor-ManagedIdentity'
+param userAssignedIdentities_Monitor_Identity_name string = 'O365LicenseMonitor-MI'
 
 resource workflows_Monitor_main_name_resource 'Microsoft.Logic/workflows@2019-05-01' = {
   name: workflows_Monitor_main_name
